@@ -1,0 +1,3 @@
+[submodule "inc/framework"]
+	path = inc/framework
+	url = git@github.com:trendgetraenkdesjahres/WP-Theme-Framework.git

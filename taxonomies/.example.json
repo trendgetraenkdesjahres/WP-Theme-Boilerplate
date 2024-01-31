@@ -1,0 +1,54 @@
+{
+    "labels": {
+        "name": "Taxonomy",
+        "singular_name": "Taxonomy",
+        "menu_name": "Taxonomy",
+        "all_items": "All Items",
+        "search_items": "All Items",
+        "edit_item": "Edit Item",
+        "view_item": "View Item",
+        "update_item": "Update Item",
+        "add_new_item": "Add New Item",
+        "new_item_name": "New Item Name",
+        "parent_item": "Parent Item",
+        "parent_item_colon": "Parent Item:"
+    },
+    "description": "",
+    "public": true,
+    "publicly_queryable": true,
+    "hierarchical": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "rest_base": "",
+    "rewrite": {
+        "slug": "locations",
+        "with_front": "false",
+        "hierarchical": "true"
+    },
+    "rest_controller_class": "",
+    "show_tagcloud": true,
+    "show_in_quick_edit": true,
+    "show_admin_column": false,
+    "meta_box_cb": null,
+    "meta_box_sanitize_cb": null,
+    "meta_box_nonce": null,
+    "object_type": [
+        "post"
+    ],
+    "update_count_callback": "",
+    "query_var": true,
+    "capabilities": {
+        "manage_terms": "manage_categories",
+        "edit_terms": "manage_categories",
+        "delete_terms": "manage_categories",
+        "assign_terms": "edit_posts"
+    },
+    "sort": false,
+    "builtin": false,
+    "show_in_graphql": false,
+    "graphql_single_name": "",
+    "graphql_plural_name": "",
+    "_builtin": false
+}
