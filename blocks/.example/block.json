@@ -1,0 +1,22 @@
+{
+    "title": "Example",
+    "description": "Just an example",
+    "category": "text",
+    "icon": "star",
+    "keywords": [
+        "alert",
+        "message"
+    ],
+    "attributes": {
+        "text_field": {
+            "type": "string",
+            "source": "html",
+            "selector": ".text"
+        }
+    },
+    "example": {
+        "attributes": {
+            "text_field": "This is a notice!"
+        }
+    }
+}
