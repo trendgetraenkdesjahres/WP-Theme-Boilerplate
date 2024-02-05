@@ -20,7 +20,10 @@
     },
     "attributes": {
         "text_field": {
-            "type": "string"
+            "type": "string",
+            "source": "text",
+            "selector": "figcaptionn",
+            "default": "hello world"
         }
     }
 }

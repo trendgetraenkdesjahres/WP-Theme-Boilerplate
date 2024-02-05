@@ -1,8 +1,7 @@
 <?php
 
-echo "moin!!!";
 /* disable any but them */
-add_filter('allowed_block_types_all', function ($allowed_block_types, $editor_context) {
+/* add_filter('allowed_block_types_all', function ($allowed_block_types, $editor_context) {
     $enabled_blocks =
         [
             "core/heading",
@@ -25,7 +24,7 @@ add_filter('allowed_block_types_all', function ($allowed_block_types, $editor_co
         }
     }
     return $enabled_blocks;
-});
+}, null, 2);
 
 add_filter('allowed_block_types_all', 'misha_allowed_block_types', 25, 2);
 
@@ -46,3 +45,4 @@ function misha_allowed_block_types($allowed_blocks, $editor_context)
 
     return $allowed_blocks;
 }
+ */

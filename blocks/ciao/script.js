@@ -1,6 +1,7 @@
-import Edit from './edit';
-import metadata from './block.json';
+import Edit from './edit.js';
 
-registerBlockType( metadata.name, {
+const { registerBlockType } = wp.blocks;
+console.log('hallo');
+registerBlockType( 'test/ciao', {
     edit: Edit,
 } );
