@@ -13,13 +13,13 @@
             "background": false,
             "text": true
         },
-        "html": false,
+        "html": true,
         "typography": {
             "fontSize": true
         }
     },
     "attributes": {
-        "text_field": {
+        "content": {
             "type": "string",
             "source": "text",
             "selector": "figcaptionn",

@@ -1,3 +1,2 @@
 <?php
-echo "hallo ich bin ein test";
-var_dump($block_attributes);
+echo "hallo ich bin ein test {$block_attributes['content']}";
