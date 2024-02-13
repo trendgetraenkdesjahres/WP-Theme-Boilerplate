@@ -8,20 +8,11 @@
         "alert",
         "message"
     ],
-    "supports": {
-        "color": {
-            "background": false,
-            "text": true
-        },
-        "html": true,
-        "typography": {
-            "fontSize": true
-        }
-    },
     "attributes": {
         "content": {
             "type": "string",
-            "source": "text"
+            "default": "moinnn",
+            "source": "attribute"
         },
         "show": {
             "type": "boolean",
